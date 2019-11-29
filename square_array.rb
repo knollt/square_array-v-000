@@ -1,5 +1,10 @@
-def square_array
-
+def square_array (a)
+  new_a = []
+  
+  a.each do |num|
+    new_a.push (num * num)
+  end
+  return new_a
 end   
 
 # OPTION 2
